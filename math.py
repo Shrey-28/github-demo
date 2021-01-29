@@ -8,3 +8,7 @@ def mul(x,y):
   return x*y
 def div(x,y):
   return x/y
+def mod(x):
+  if x<0:
+	return -x
+  return x
